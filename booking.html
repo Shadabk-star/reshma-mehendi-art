@@ -1,0 +1,224 @@
+<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang=""> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reshma Mehendi - Professional Mehendi Artist
+</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/icofont.css">
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/color.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body class="hb-home hb-homeone">
+	<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!--************************************
+			Wrapper Start
+	*************************************-->
+	<div id="hb-wrapper" class="hb-wrapper hb-haslayout">
+		<!--************************************
+				Header V3 Start
+		*************************************-->
+	<div id="header"></div>
+
+		<script>
+		fetch("header.html")
+		.then(response => response.text())
+		.then(html => {
+			document.getElementById("header").innerHTML = html;
+		});
+		</script>
+		<!--************************************
+				Header V3 End
+		*************************************-->
+		<div class="search-popup">
+			<div class="holder">
+				<div class="block">
+					<a href="#" class="close-btn"><i class="fa fa-times"></i></a>
+					<form action="#" class="search-form">
+						<fieldset>
+							<input type="search" class="form-control" placeholder="Search">
+							<button type="submit" class="btn-primary"><i class="fa fa-search"></i></button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--************************************
+				Banner Start
+		*************************************-->
+		<div id="hb-innerbanner" class="hb-innerbanner hb-haslayout">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="hb-innerbanner-area service">
+							<div  class="hb-bannarheading">
+								<h1>BOOKING</h1>
+							</div>
+							<ul class="hb-breadcrumb">
+								<li><a href="index.html">Home</a></li>
+								<li>BOOKING</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--************************************
+				Banner End
+		*************************************-->
+		<!--************************************
+				Main Start
+		*************************************-->
+		<main id="hb-main" class="hb-main hb-haslayout">
+			<section id="hb-services" class="hb-services hb-sectionspace hb-haslayout">
+				<div class="container">
+					<div class="row">
+						<div class=" col-xs-12 col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2">
+							<div class="hb-sectionhead">
+								<div class="hb-sectiontitle">
+									<h2><span>booking calendar</span>
+										Book an Appointment
+									</h2>
+								</div>
+							</div>
+							<div class="booking-calendar">
+
+    <div class="booking-calendar">
+
+    
+        <button type="button" id="prevMonth">
+            <i class="fa fa-chevron-left"></i>
+        </button>
+
+        <h3 id="monthYear"></h3>
+
+        <button type="button" id="nextMonth">
+            <i class="fa fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <div class="calendar-weekdays">
+        <div>MON</div>
+        <div>TUE</div>
+        <div>WED</div>
+        <div>THU</div>
+        <div>FRI</div>
+        <div>SAT</div>
+        <div>SUN</div>
+    </div>
+
+    <div id="calendarDays" class="calendar-days"></div>
+
+</div>
+
+<!-- Appointment Box -->
+<div id="appointmentBox" class="appointment-box">
+
+    <h3>Book Your Appointment</h3>
+
+    <p>
+        Selected Date:
+        <strong id="selectedDate"></strong>
+    </p>
+
+	<div id="timeSlots" class="time-slots"></div>
+
+    <form id="appointmentForm">
+
+        <div class="form-group">
+            <input
+                type="text"
+                id="customerName"
+                class="form-control"
+                placeholder="Your Name"
+                required>
+        </div>
+
+        <div class="form-group">
+            <input
+                type="tel"
+                id="customerPhone"
+                class="form-control"
+                placeholder="Phone Number"
+                required>
+        </div>
+
+        <div class="form-group">
+            <select id="mehendiType" class="form-control" required>
+                <option value="">Select Mehendi Type</option>
+                <option value="Bridal Mehendi">Bridal Mehendi</option>
+                <option value="Engagement Mehendi">Engagement Mehendi</option>
+                <option value="Party Mehendi">Party Mehendi</option>
+                <option value="Arabic Mehendi">Arabic Mehendi</option>
+                <option value="Simple Mehendi">Simple Mehendi</option>
+				<option value="BabyShower  Mehendi">BabyShower  Mehendi</option>
+				<option value="Teej Mehendi">Teej Mehendi</option>
+				<option value="Karwachauth Mehendi">Karwachauth Mehendi</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <button type="submit" class="hb-btn">
+            CONFIRM APPOINTMENT
+        </button>
+
+            </form>
+
+             </div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+
+		<!--************************************
+				Footer Start
+		*************************************-->
+
+		 <div id="footer"></div>
+
+		<script>
+			fetch("footer.html")
+				.then(response => response.text())
+				.then(html => {
+					document.getElementById("footer").innerHTML = html;
+				});
+		</script>
+
+		
+
+
+
+		<!--************************************
+				Footer End
+		*************************************-->
+	<!--************************************
+			Wrapper End
+	*************************************-->
+	<script src="js/vendor/jquery-library.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	<script src="js/isotop.js"></script>
+	<script src="js/fancybox.js"></script>
+	<script src="js/countTo.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/main.js"></script>
+
+	<script src="js/booking.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,192 @@
+/*==========================================================================================
+								Primery Theme Colors										
+==========================================================================================*/
+/*=============================================
+			Theme Text Color
+=============================================*/
+a,
+.clr,
+p a,
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.hb-info li a:hover,
+.hb-navigation ul li:hover a,
+.v2 .hb-info li span a:hover,
+.hb-navigation ul li .sub-menu li a:hover,
+.v3 .hb-cartarea a:hover,
+.v3 .hb-searcharea a:hover,
+.v4 .hb-searcharea a:hover,
+.v4 .hb-cartarea a:hover,
+.hb-homeslider.v4 .hb-slidercontent a:hover,
+.hb-whychooseus-list li:after,
+.hb-counter h3,
+.pricingcontent h3 span,
+.hb-pricingbox:hover .hb-btn,
+.hb-pricingbox.active .hb-btn,
+.hb-uthername h3,
+.hb-filterbale-nav li a:hover,
+.hb-filterbale-nav li a.active,
+.hb-testimonialsthumbslider .hb-prev:hover,
+.hb-testimonialsthumbslider .hb-next:hover,
+.hb-productscontent h3 span,
+.hb-pricinglistbox li span,
+.hb-aboutusvideo .hb-video-btn:hover,
+.hb-gift-price span,
+.hb-categories ul li:after,
+.hb-postmeta-area .hb-postmeta em,
+.hb-posttage li a:hover,
+.hb-bloggrid.blogfullwidth .hb-posttitle h3 a:hover,
+.hb-pagination ul li a:hover,
+.hb-blogdetails .hb-treatmentlist li:before,
+.hb-blogdetails .hb-uthername,
+.hb-socialshare ul li a:hover,
+.hb-comment-date,
+.hb-panel h4 a:hover,
+.cart-table .price,
+.cart-list .price,
+.hb-cart-widget .price,
+.hb-content-block .hb-btn,
+.hb-shoparea-detail .price,
+.hb-categories.hb-categories2 ul a span,
+.hb-categories.hb-categories2 ul a:hover,
+.hb-shoparea-detail .social-network a:hover,
+.hb-pricingplan .tab-content .price
+ 
+{color: #7f9f4f;}
+ 
+
+
+
+
+.v2 .hb-info li i{
+	background: -webkit-linear-gradient(left, #8fb36b 0%, #c7d98c 100%);
+	background: -o-linear-gradient(left, #8fb36b 0%, #c7d98c 100%);
+	background: linear-gradient(to right, #8fb36b 0%, #c7d98c 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.v5 .hb-searcharea a:hover,
+.v5 .hb-cartarea a:hover,
+.v5 .hb-navigation ul li:hover a,
+.v5 .hb-navigation ul li:active a,
+.v5 .hb-navigation ul li:focus a,
+.v5 .hb-withoutbackground li a:hover i,
+.v5 .hb-navigation ul li .sub-menu li a:hover,
+.hb-footer.v3 .hb-socialicons li a:hover i,
+.hb-footer.v3 .hb-socialicons li a:focus i,
+.hb-footer.v3 .hb-socialicons li a:active i,
+.hb-footer.v3 .hb-footernav li a:hover,
+.hb-footer.v3 .hb-footernav li a:active,
+.hb-footer.v3 .hb-footernav li a:focus,
+.hb-homeslider.v5 .hb-btn:hover
+
+
+
+
+{color: #7ac284;}
+/*=============================================
+			Theme Background Color
+=============================================*/
+.hb-dropdowarrow,
+.navbar-toggle,
+.hb-panel h4:after,
+.hb-tags ul li .hb-tagbtn:hover,
+.hb-tags ul li .hb-tagbtn:hover,
+.search-popup .close-btn
+{background:#8fb36b;}
+
+
+
+.hb-btn,
+.hb-socialicons li a, 
+.hb-socialicons.hb-socialicons-sm li a:hover,
+.hb-cart li .hb-btn.changehover:hover,
+.v2 .hb-navigationarea,
+.hb-prev:hover,
+.hb-next:hover,
+.hb-homeslider.v4 .hb-slidercontent:after,
+.hb-paradiseiconbox,
+.hb-btn.bdr:hover:after,
+.hb-roundicon li .hb-g-icon.change-bg,
+.hb-giftcertificates-box:hover .hb-giftbtn,
+.hb-content-block,
+.tab-holder .tab-list .active a,
+.tab-holder .tab-list a:hover,
+#back-top,
+.hb-shoparea-detail .img-holder .hb-zoom-btn
+{background-image: linear-gradient(to right,#8fb36b 0%,#c7d98c 51%,#8fb36b 100%);}
+
+
+
+.hb-topbar,
+.hb-footer.v2 .hb-info li:before,
+.hb-footer.v2 .hb-info li a:hover,
+.hb-pricingbox:hover,
+.hb-pricingbox.active,
+.countdownHolder:after,
+.hb-comingsooncounter:after,
+.hb-testimonialbox:hover .hb-testimonialcontentbox,
+.hb-testimonialbox .hb-testimonialcontentbox.active
+{background: rgba(143,179,107,1);
+background: -moz-linear-gradient(left, rgba(143,179,107,1) 0%, rgba(199,217,140,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(143,179,107,1)), color-stop(100%, rgba(199,217,140,1)));
+background: -webkit-linear-gradient(left, rgba(143,179,107,1) 0%, rgba(199,217,140,1) 100%);
+background: -o-linear-gradient(left, rgba(143,179,107,1) 0%, rgba(199,217,140,1) 100%);
+background: -ms-linear-gradient(left, rgba(143,179,107,1) 0%, rgba(199,217,140,1) 100%);
+background: linear-gradient(to right, rgba(143,179,107,1) 0%, rgba(199,217,140,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fb36b', endColorstr='#c7d98c', GradientType=1 );
+}
+/*=====================Color with opacity========================*/
+.hb-postimage:before,
+.hb-gallerycontent
+{background: rgba(143,179,107,0.8);
+background: -moz-linear-gradient(left, rgba(143,179,107,0.8) 0%, rgba(199,217,140,0.8) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(143,179,107,0.8)), color-stop(100%, rgba(199,217,140,0.8)));
+background: -webkit-linear-gradient(left, rgba(143,179,107,0.8) 0%, rgba(199,217,140,0.8) 100%);
+background: -o-linear-gradient(left, rgba(143,179,107,0.8) 0%, rgba(199,217,140,0.8) 100%);
+background: -ms-linear-gradient(left, rgba(143,179,107,0.8) 0%, rgba(199,217,140,0.8) 100%);
+background: linear-gradient(to right, rgba(143,179,107,0.8) 0%, rgba(199,217,140,0.8) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fb36b', endColorstr='#c7d98c', GradientType=1 );
+}
+.hb-footer.v3 .hb-socialicons li a,
+.hb-homeslider.v5 .hb-btn,
+.hb-homeslider.v5 .hb-prev:hover,
+.hb-homeslider.v5 .hb-next:hover,
+.hb-sectiontitle.v3:before
+ {background: #7ac284;}
+/*=============================================
+			Theme Border Color
+=============================================*/
+input:focus,
+.select select:focus,
+.form-control:focus,
+.hb-thumb figure img,
+.hb-tags ul li .hb-tagbtn:hover,
+.hb-tags ul li .hb-tagbtn:hover
+{ border-color: #8fb36b; }
+.hb-servicebox:hover .hb-serviceimg:after,
+.hb-teambox:hover .hb-teamimg:after
+{border-color: rgba(199,217,140,0.5);}
+
+.hb-footer.v3 .hb-socialicons li a,
+.hb-homeslider.v5 .hb-btn
+{border-color: #7ac284;}
+
+#hb-pricingplan .hb-pricingbox .hb-btn.changebtn {
+	color: #3c2a10;
+	border-color: #d89a2b;
+	background: #f4bd4f;
+	background-image: linear-gradient(to right, #f4bd4f 0%, #ffe08a 51%, #f4bd4f 100%);
+	box-shadow: 0 8px 18px rgba(216, 154, 43, 0.25);
+}
+
+#hb-pricingplan .hb-pricingbox .hb-btn.changebtn:hover,
+#hb-pricingplan .hb-pricingbox:hover .hb-btn.changebtn,
+#hb-pricingplan .hb-pricingbox.active .hb-btn.changebtn {
+	color: #3c2a10;
+	border-color: #f4bd4f;
+	background: #ffe08a;
+	background-image: linear-gradient(to right, #ffe08a 0%, #f4bd4f 51%, #ffe08a 100%);
+}
